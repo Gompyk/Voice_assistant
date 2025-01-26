@@ -1,9 +1,9 @@
 import threading
 import time
-from voice_assistant.core.recognition import SpeechRecognition
-from voice_assistant.core.command_processor import CommandProcessor
-from voice_assistant.core.logger import Logger
-from voice_assistant.config.settings import GENERAL_SETTINGS
+from core.recognition import SpeechRecognition
+from core.command_processor import CommandProcessor
+from core.logger import Logger
+from config.settings import GENERAL_SETTINGS
 
 
 class VoiceAssistant:

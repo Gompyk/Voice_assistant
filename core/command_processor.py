@@ -1,8 +1,8 @@
-from voice_assistant.config.commands import COMMANDS, find_command
-from voice_assistant.modules.system import SystemCommands
-from voice_assistant.modules.media import MediaCommands
-from voice_assistant.modules.browser import BrowserCommands
-from voice_assistant.modules.utils import Utilities
+from config.commands import COMMANDS, find_command
+from modules.system import SystemCommands
+from modules.media import MediaCommands
+from modules.browser import BrowserCommands
+from modules.utils import Utilities
 
 
 class CommandProcessor:
