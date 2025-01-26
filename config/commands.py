@@ -34,6 +34,38 @@ COMMANDS = {
                 "restart"
             ],
             "description": "Перезагрузка компьютера"
+        },
+        "show_desktop": {
+            "phrases": [
+                "свернуть все",
+                "свернуть"
+            ],
+            "description": "Минимизировать все окна"
+        },
+        "minimize_window": {
+            "phrases": [
+                "свернуть окно"
+            ],
+            "description": "Свернуть текущее окно"
+        },
+        "open_task_manager": {
+            "phrases": [
+                "открыть диспетчер задач",
+                "диспетчер"
+            ],
+            "description": "Открыть диспетчер задач Windows"
+        },
+        "open_explorer": {
+            "phrases": [
+                "открыть проводник"
+            ],
+            "description": "Открыть проводник Windows"
+        },
+        "open_settings": {
+            "phrases": [
+                "открыть настройки"
+            ],
+            "description": "Открыть настройки системы"
         }
     },
 
@@ -87,6 +119,7 @@ COMMANDS = {
         },
     },
 
+    # Команды браузера
     "browser":  {
         "new_tab": {
             "phrases": [
@@ -116,6 +149,18 @@ COMMANDS = {
             ],
             "description": "Открыть браузер"
         },
+        "go_to_site": {
+            "phrases": [
+                "перейти на"
+            ],
+            "description": "Открыть указанный сайт"
+        },
+        "refresh_page": {
+            "phrases": [
+                "обновить страницу"
+            ],
+            "description": "Обновить текущую вкладку"
+        },
          "open_youtube": {
             "phrases": [
                 "ютуб",
@@ -133,6 +178,7 @@ COMMANDS = {
         },
     },
 
+    # Утилиты
     "utils":  {
         "screenshot":  {
             "phrases": [
@@ -161,7 +207,6 @@ COMMANDS = {
             ],
             "description": "Открытие командной строки"
         },
-
     }
 }
 

@@ -1,4 +1,3 @@
-
 import pyautogui
 import keyboard
 import webbrowser
@@ -49,7 +48,6 @@ class BrowserCommands:
         except Exception as e:
             return f"Ошибка открытия браузера: {e}"
 
-
     @staticmethod
     def open_github(url="https://github.com"):
         """Открытие страницы"""
@@ -58,3 +56,21 @@ class BrowserCommands:
             return f"Открыт браузер со страницей {url}"
         except Exception as e:
             return f"Ошибка открытия браузера: {e}"
+
+    @staticmethod
+    def go_to_site(url):
+        """Переход на указанный сайт"""
+        try:
+            webbrowser.open(url)
+            return f"Перейдено на сайт {url}"
+        except Exception as e:
+            return f"Ошибка перехода на сайт: {e}"
+
+    @staticmethod
+    def refresh_page():
+        """Обновление текущей страницы"""
+        try:
+            keyboard.press_and_release('f5')
+            return "Страница обновлена"
+        except Exception as e:
+            return f"Ошибка обновления страницы: {e}"
