@@ -39,3 +39,22 @@ class BrowserCommands:
             return f"Открыт браузер со страницей {url}"
         except Exception as e:
             return f"Ошибка открытия браузера: {e}"
+
+    @staticmethod
+    def open_youtube(url="https://youtube.com"):
+        """Открытие страницы"""
+        try:
+            webbrowser.open(url)
+            return f"Открыт браузер со страницей {url}"
+        except Exception as e:
+            return f"Ошибка открытия браузера: {e}"
+
+
+    @staticmethod
+    def open_github(url="https://github.com"):
+        """Открытие страницы"""
+        try:
+            webbrowser.open(url)
+            return f"Открыт браузер со страницей {url}"
+        except Exception as e:
+            return f"Ошибка открытия браузера: {e}"

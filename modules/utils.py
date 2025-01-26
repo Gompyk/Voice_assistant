@@ -31,3 +31,14 @@ class Utilities:
             return "Блокнот открыт"
         except Exception as e:
             return f"Ошибка открытия блокнота: {e}"
+
+    @staticmethod
+    def open_cmd():
+        """Открытие командной строки"""
+        try:
+            subprocess.Popen('cmd.exe')
+            return "Командная строка открыта"
+        except Exception as e:
+            return f"Ошибка открытия командной строки: {e}"
+
+    

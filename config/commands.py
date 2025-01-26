@@ -90,7 +90,8 @@ COMMANDS = {
     "browser":  {
         "new_tab": {
             "phrases": [
-                "новая вкладка"
+                "новая вкладка",
+                "новая"
             ],
             "description": "Новая вкладка"
         },
@@ -115,7 +116,23 @@ COMMANDS = {
             ],
             "description": "Открыть браузер"
         },
+         "open_youtube": {
+            "phrases": [
+                "ютуб",
+                "youtube"
+            ],
+            "description": "Открыть youtube"
+        },
+         "open_github": {
+            "phrases": [
+                "гитхаб",
+                "github",
+                "git",
+            ],
+            "description": "Открыть github"
+        },
     },
+
     "utils":  {
         "screenshot":  {
             "phrases": [
@@ -127,8 +144,22 @@ COMMANDS = {
         "open_notepad":  {
             "phrases": [
                 "блокнот",
+                "notepad"
             ],
             "description": "Открытие блокнота"
+        },
+        "open_calculator":  {
+            "phrases": [
+                "калькулятор",
+            ],
+            "description": "Открытие калькулятора"
+        },
+        "open_cmd":  {
+            "phrases": [
+                "командная строка",
+                "строка"
+            ],
+            "description": "Открытие командной строки"
         },
 
     }

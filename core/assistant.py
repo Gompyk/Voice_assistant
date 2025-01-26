@@ -8,7 +8,7 @@ from voice_assistant.config.settings import GENERAL_SETTINGS
 
 class VoiceAssistant:
     def __init__(self):
-        self.recognition = SpeechRecognition()  # Теперь должно работать корректно
+        self.recognition = SpeechRecognition()  
         self.command_processor = CommandProcessor()
         self.logger = Logger()
         self.is_active = True
@@ -44,10 +44,12 @@ class VoiceAssistant:
                 self.logger.error(f"Ошибка в основном цикле: {e}")
                 time.sleep(1)  # Небольшая пауза при ошибке
 
+
     def stop(self):
         """Остановка ассистента"""
         self.is_active = False
         self.logger.log("Ассистент остановлен")
+
 
     def add_command(self, command_type, handler):
         """Метод для динамического добавления команд"""

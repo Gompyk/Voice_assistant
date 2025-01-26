@@ -28,10 +28,15 @@ class CommandProcessor:
             "close_tab": BrowserCommands.close_tab,
             "reopen_tab": BrowserCommands.reopen_tab,
             "open_browser": BrowserCommands.open_browser,
+            "open_youtube": BrowserCommands.open_youtube,
+            "open_github": BrowserCommands.open_github,
 
             # Утилиты
             "screenshot": Utilities.screenshot,
-            "open_notepad": Utilities.open_notepad
+            "open_notepad": Utilities.open_notepad,
+            "open_calculator": Utilities.open_calculator,
+            "open_cmd": Utilities.open_cmd,
+            
         }
 
     def process(self, command):
