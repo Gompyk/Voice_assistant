@@ -1,4 +1,4 @@
-from voice_assistant.core.assistant import VoiceAssistant
+from core.assistant import VoiceAssistant
 
 
 def main():

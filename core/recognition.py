@@ -1,5 +1,5 @@
 import speech_recognition as sr
-from voice_assistant.config.settings import GENERAL_SETTINGS
+from config.settings import GENERAL_SETTINGS
 
 
 class SpeechRecognition:

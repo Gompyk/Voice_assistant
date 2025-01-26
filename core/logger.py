@@ -1,5 +1,5 @@
 import logging
-from voice_assistant.config.settings import GENERAL_SETTINGS
+from config.settings import GENERAL_SETTINGS
 import os
 from datetime import datetime
 
