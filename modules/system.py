@@ -2,7 +2,7 @@ import os
 import subprocess
 import pyautogui
 import keyboard
-from voice_assistant.config.credentials import get_system_password
+# from voice_assistant.config.credentials import get_system_password
 
 
 class SystemCommands:
@@ -66,3 +66,22 @@ class SystemCommands:
             return "ПК переходит в режим гибернации"
         except Exception as e:
             return f"Ошибка гибернации: {e}"
+
+    @staticmethod
+    def minimize_window():
+        """Свернуть текущее окно"""
+        try:
+            pyautogui.hotkey('win', 'd')  # Свернуть все окна
+            return "Текущее окно свернуто"
+        except Exception as e:
+            return f"Ошибка сворачивания окна: {e}"
+
+    @staticmethod
+    def show_desktop():
+        """Перейти на рабочий стол"""
+        try:
+            pyautogui.hotkey('win', 'd')  # Свернуть все окна
+            return "Перешли на рабочий стол"
+        except Exception as e:
+            return f"Ошибка перехода на рабочий стол: {e}"
+

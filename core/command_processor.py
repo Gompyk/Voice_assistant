@@ -14,6 +14,9 @@ class CommandProcessor:
             "unlock": SystemCommands.unlock_screen,
             "shutdown": SystemCommands.shutdown,
             "restart": SystemCommands.restart,
+            "minimize_window": SystemCommands.minimize_window,
+            "show_desktop": SystemCommands.show_desktop,
+
 
             # Медиа-команды
             "volume_up": MediaCommands.volume_up,
@@ -30,12 +33,16 @@ class CommandProcessor:
             "open_browser": BrowserCommands.open_browser,
             "open_youtube": BrowserCommands.open_youtube,
             "open_github": BrowserCommands.open_github,
+            "go_to_site": BrowserCommands.go_to_site,
+            "refresh_page": BrowserCommands.refresh_page,
 
             # Утилиты
             "screenshot": Utilities.screenshot,
             "open_notepad": Utilities.open_notepad,
             "open_calculator": Utilities.open_calculator,
             "open_cmd": Utilities.open_cmd,
+            "open_explorer": Utilities.open_explorer,
+            "open_settings": Utilities.open_settings,
             
         }
 
